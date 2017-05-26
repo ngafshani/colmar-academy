@@ -1,0 +1,273 @@
+@media only screen and (min-width: 481px) {
+  .mobile {
+    display: none;
+  }
+  .courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .course {
+    width: 30%;
+  }
+  .inforight {
+    width: 423px;
+    display: flex;
+    padding: 20px;
+    border: 1px solid lightgray;
+  }
+  .inforight:last-child {
+    background-color: lightgray;
+  }
+  .startlearning {
+    background-color: #e6e6e6;
+  }
+  .button {
+      background-color: #4d4d4d;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .desktop {
+    display: none;
+  }
+  .header ul li {
+    display: none;
+  }
+
+  .inforight {
+    display: block;
+  }
+  .startlearning {
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+
+  }
+  .courses {
+    display: block;
+    width: 100%;
+  }
+  .coursetext {
+    width: 90%;
+    background-color: lightgray;
+  }
+  .coursetext h4 {
+    margin: 0px;
+  }
+  .bannertext {
+    padding: 15px;
+  }
+  .infoimg {
+    padding: 16px;
+  }
+  .button {
+    background-color: gray;
+  }
+  .startlearning {
+    border-top: 1px solid lightgray;
+  }
+}
+
+html {
+  font-family: Verdana;
+  color: #4d4d4d;
+  font-size: 16px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 64px;
+}
+
+.bold {
+  font-weight: 600;
+  color: black;
+}
+
+.lightgray {
+  font-weight: 600;
+  color: gray;
+}
+
+nav ul li {
+  list-style-type: none;
+  padding: 8px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.header img {
+  padding-left: 24px;
+}
+
+.learn {
+  display: flex;
+  background-color: lightgray;
+  align-items: center;
+}
+
+.learn .img {
+  width: 60%;
+  padding: 32px 40px 32px 24px;
+}
+
+.learn .img img {
+  width: 100%;
+  height: auto;
+
+}
+
+.learn .bannertext {
+  padding-right: 20px;
+
+}
+
+.button {
+  color: white;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+}
+
+.info {
+  display: flex;
+}
+
+.infosleft {
+  border-right: 1px solid lightgray;
+  width: 70%;
+}
+
+.infosleft .img {
+  padding: 32px 24px;
+
+}
+
+.infosleft .img img {
+  width: 100%;
+}
+
+.infosleft .text {
+  padding-left: 24px;
+}
+
+.infosleft .text h1 {
+  padding-bottom: 24px;
+}
+
+.inforight img {
+  width: 100%;
+}
+
+.inforight .infotext {
+  width: 70%;
+}
+
+.infotext {
+  padding-left: 15px;
+}
+
+.readmore {
+  color: dodgerblue;
+  font-size: .75rem;
+}
+
+
+.startlearning h1 {
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 16px;
+}
+
+.courses {
+
+  padding-bottom: 32px;
+}
+
+.course {
+
+  margin: 16px;
+  background-color: white;
+}
+
+.course img {
+  width: 100%;
+  height: auto;
+}
+
+.coursetext {
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-bottom: 24px;
+}
+
+.theses h1 {
+  text-align: center;
+}
+
+.thesis video {
+  width: 90%;
+  margin-left: 24px;
+}
+
+.thesisleft {
+  margin-left: 24px;
+  width: 80%;
+}
+
+.thesiscolumns {
+  display: flex;
+}
+
+.thesisright {
+  display: flex;
+  width: 423px;
+  align-items: center;
+}
+
+.thesisright .text {
+  width: 65%;
+}
+
+.thesisright:first-child {
+  background-color: lightgray;
+}
+
+.thesisright .image {
+  width: 35%;
+  padding: 16px;
+}
+
+.thesisright .image img {
+  width: 100%;
+}
+
+.footer {
+  height: 70px;
+  border-top: 1px solid lightgray;
+  font-size: .75rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+footer p {
+  padding-left: 24px;
+}
+
+footer span {
+  padding: 5px;
+}
+
+.footer div {
+  padding-top: 10px;
+}
