@@ -135,6 +135,12 @@ nav ul li {
   text-align: center;
 }
 
+.button:hover {
+  background-color: dodgerblue;
+  transition-property: background-color;
+  transition-duration: 1s;
+}
+
 .info {
   display: flex;
 }
@@ -186,14 +192,14 @@ nav ul li {
 }
 
 .courses {
-
   padding-bottom: 32px;
 }
 
 .course {
-
   margin: 16px;
   background-color: white;
+  flex-grow: 1;
+  flex-shrink: 1;
 }
 
 .course img {
