@@ -97,6 +97,12 @@ nav ul li {
   padding: 8px;
 }
 
+nav ul li:hover {
+  transition-property: color;
+  color: dodgerblue;
+  transition-duration: .75s;
+}
+
 .list {
   display: flex;
   justify-content: space-around;
@@ -184,6 +190,11 @@ nav ul li {
   font-size: .75rem;
 }
 
+.readmore:hover {
+  transition-property: color;
+  color: blueviolet;
+  transition-duration: .75s;
+}
 
 .startlearning h1 {
   text-align: center;
